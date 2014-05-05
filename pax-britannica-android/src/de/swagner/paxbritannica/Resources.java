@@ -14,8 +14,6 @@ public class Resources {
 	public Sprite credits = new Sprite(new Texture(Gdx.files.internal("data/spritepack/credits.png")));
 	
 	public TextureAtlas atlas = new TextureAtlas(Gdx.files.internal("data/spritepack/packhigh.pack"));
-	// public AtlasRegion region = atlas.findRegion("imagename");
-	// Sprite sprite = atlas.createSprite("otherimagename");
 
 	public Music music = Gdx.audio.newMusic(Gdx.files.internal("data/audio/music.mp3"));
 
